@@ -1,0 +1,718 @@
+
+body {
+    overflow-x: hidden;
+    background-color: #464646;
+    color: #F7F7FB;
+    font-family: 'Livvic', sans-serif;
+}
+
+.heading{
+    margin: 50px 0px 50px 0px;
+    text-align: center;
+}
+
+
+
+
+
+/* nav adjustemnts */
+.navbar {
+    background-color: rgba(255, 255, 255, 0);
+    color:#F7F7FB;
+    ;
+}
+
+.nav-link {
+    color:#F7F7FB;
+}
+
+.navbar-toggler-icon {
+    color:#F7F7FB;
+}
+
+
+.navbar-brand img {
+    width: 130px;
+}
+
+
+
+
+/* button adjustemnts */
+.btn-danger {
+    display: block;
+    margin: auto;
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 300px;
+    height: 60px;
+    border-radius: 72.26px;
+    background-color:#FA1E5A;
+    border-color: FA1E5A;
+    position: relative;
+    z-index: 10;
+}
+
+.btn-outline-light {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 300px;
+    height: 60px;
+    border-radius: 72.26px;
+    border-color: F7F7FB;
+    position: relative;
+    z-index: 10;
+}
+
+
+
+
+/* font adjustments */
+a {
+    text-decoration: none;
+    color: #F7F7FB;
+}
+
+p {
+    font-size: 1rem;
+}
+
+a:hover {
+    color: #F7F7FB;
+}
+
+.hello{
+    font-size: 3rem;
+    font-weight: 625;   
+    margin-bottom: 1.25rem;
+    position: relative;
+    z-index: 10;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 625;   
+    margin-bottom: 1.25rem;
+    position: relative;
+    z-index: 10;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.countdown_optA {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.countdown_optB {
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+
+
+
+.testiname {
+    font-weight: bold;
+}
+
+.h-container {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.p-container {
+    font-size: 1rem;
+}
+
+.trackdescription p {
+    font-size: 1rem;
+}
+
+.gradient1{
+    position: absolute;
+    top: -800px;
+    left: -500px;
+    width: 1200px;
+    height: 1200px;
+    background: radial-gradient(circle, rgba(250,30,90,1) 10%, rgba(0,0,0,0) 50%);
+    
+}
+
+.gradient2{
+    position: absolute;
+    top: 2900px;
+    left: -500px;
+    width: 1200px;
+    height: 1200px;
+    background: radial-gradient(circle, rgba(23, 87, 226, 0.515) 10%, rgba(0,0,0,0) 50%);
+    z-index: -10;
+}
+
+/*
+
+
+.gradient2{
+    position: absolute;
+    top: 2100px;
+    left: 800px;
+    width: 1000px;
+    height: 1000px;
+    background: radial-gradient(circle, rgba(250, 30, 89, 0.319) 10%, rgba(0,0,0,0) 50%);
+    z-index: -10;
+}
+
+.gradient3{
+    position: absolute;
+    top: 2900px;
+    right: 850px;
+    width: 1500px;
+    height: 1500px;
+    background: radial-gradient(circle, rgba(23, 87, 226, 0.515) 10%, rgba(0,0,0,0) 50%);
+    z-index: -10;
+}
+
+.gradient4{
+    position: absolute;
+    top: 4000px;
+    left: 600px;
+    width: 1500px;
+    height: 1500px;
+    background: radial-gradient(circle, rgba(250, 30, 89, 0.438) 10%, rgba(0,0,0,0) 50%);
+    z-index: -10;
+
+}
+*/
+
+
+
+/*section spacer */
+.spacer-medium {
+    height: 200px;
+}
+
+.spacer-small {
+    height: 100px;
+}
+
+
+
+
+/* header section */ 
+.herobox1{
+    display: flex;
+    justify-content: end;
+}
+
+.herobox1 img{
+    display: block;
+}
+
+.herobox2 {
+    display: none;
+}
+
+.herobox2 img{
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.herobox3 {
+    display: none;
+}
+
+.herocontainer{
+    background: linear-gradient(to top, transparent, #464646 0%, rgba(70, 70, 70, 0.4) 50%, #464646 85%), url(images/muenster.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+/* why section */
+.whycards {
+    min-width: 310px;
+    min-height: 342px;
+    border-radius: 10px;
+    margin-bottom: 2%;
+
+}
+
+.why-content {
+    margin: 7.5%;
+}
+
+.why1 {
+    background-image: url(images/why_1.jpg);
+    background-size: cover;
+}
+
+.why2 {
+    background-image: url(images/why_2.jpg);
+    background-size: cover;
+}
+
+.why3 {
+    background-image: url(images/why_3.jpg);
+    background-size: cover;
+}
+
+.why4 {
+    background-image: url(images/why_4.jpg);
+    background-size: cover;
+}
+
+.whycontainer,
+.testicontainer {
+    overflow-x: scroll;
+}
+
+
+
+
+/* testimonials section */
+.testicards {
+    width: 310px;
+    height: 300px;
+}
+
+.testi1 {
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 30%;
+    background-image: url(images/testi1.jpg);
+}
+
+.testi2 {
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    background-image: url(images/testi2.jpg);
+    background-repeat: no-repeat;
+}
+
+.testi3 {
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 30%;
+    background-image: url(images/testi3.jpg);
+    background-repeat: no-repeat;
+}
+
+.testi4 {
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    background-image: url(images/testi4.jpg);
+    background-repeat: no-repeat;
+}
+
+.completecard {
+    align-items: flex-start;
+    height: 575px;
+    width: 310px;
+    margin-bottom: 2%;
+}
+
+.testicomment {
+    padding-top: 20px;
+}
+
+.button-container {
+    padding-top: .5%;
+
+}
+
+
+/* scroll buttons style */
+#slideLeft,
+#slideRight,
+#slideLeft-why,
+#slideRight-why {
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+    border-radius: 100%;
+    height: 71px;
+    width: 71px;
+    text-align: center;
+    transition: .5s;
+}
+
+#slideLeft,
+#slideLeft-why {
+    margin-right: .25%;
+}
+
+#slideLeft img {
+    position: relative;
+    right: 10%;
+    bottom: 1%;
+}
+
+#slideRight img {
+    position: relative;
+    right: 10%;
+    bottom: 2%;
+}
+
+#slideLeft-why img {
+    position: relative;
+    right: 10%;
+    bottom: 1%;
+}
+
+#slideRight-why img {
+    position: relative;
+    right: 10%;
+    bottom: 2%;
+}
+
+#slideLeft:hover,
+#slideRight:hover,
+#slideLeft-why:hover,
+#slideRight-why:hover {
+    background-color: rgba(217, 217, 217, 0.2);
+}
+
+
+
+
+/* iFrame YouTube Link */
+.video {
+    margin: auto;
+    text-align: center;
+    margin-top: 15%;
+    border-radius: 15px;
+    border: 4px solid #464646;
+    width: 848px;
+    height: 480px;
+    overflow: hidden;
+}
+
+iframe {
+    width: 840px;
+    height: 473px;
+}
+
+
+/* tracks overview */
+.track-container {
+    display: grid;
+    grid-area: 50% / 50%;
+    column-gap: 35px;
+    row-gap: 35px;
+}
+
+.track-container h3 {
+    font-weight: bold;
+}
+
+.track1:hover,
+.track2:hover,
+.track3:hover,
+.track4:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.track1 {
+    padding: 20px;
+    grid-area: 1 / 1;
+    display: flex;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.track2 {
+    padding: 20px;
+    grid-area: 1 / 2;
+    display: flex;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.track3 {
+    padding: 20px;
+    grid-area: 2 / 1;
+    display: flex;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.track4 {
+    padding: 20px;
+    grid-area: 2 / 2;
+    display: flex;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.trackbadge {
+    padding-right: 20px;
+}
+
+
+
+
+/* Journey Container Styles */
+.grid-container {
+    display: grid;
+    padding: 10px;
+    column-gap: 15px;
+    row-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid-item {
+    background-color: rgba(250, 30, 90, 0.9);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  height: 261px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+
+.item-wrapper1 {
+    grid-area: 1 / 1 / span 1 /span 2;
+}
+
+.item-wrapper2 {
+    grid-area: 1 / 3 / span 1 /span 3;
+}
+
+.item-wrapper3 {
+    grid-area: 1 / 6 / span 1 /span 2;
+}
+
+.item-wrapper4 {
+    grid-area: 2 / 1 / span 1 /span 4;
+}
+
+.item-wrapper5 {
+    grid-area: 2 / 5 / span 1 /span 3;
+}
+
+
+
+.item1 {
+    background-image: url(images/journey_1.svg);
+    background-size: 70%;
+    background-position: 105% 105%;
+    background-repeat: no-repeat;
+}
+
+.item2 {
+    background-image: url(images/journey_3.svg);
+    background-size: 40%;
+    background-position: 50% 105%;
+    background-repeat: no-repeat;
+}
+
+.item3 {
+    background-image: url(images/journey_2.svg);
+    background-size: 80%;
+    background-position: 50% 105%;
+    background-repeat: no-repeat;
+}
+
+.item4 {
+    background-image: url(images/journey_4.svg);
+    background-size: 55%;
+    background-position: 105% 105%;
+    background-repeat: no-repeat;
+ 
+}
+
+.item5 {
+    background-image: url(images/journey_5.svg);
+    background-size: 65%;
+    background-position: 105% 105%;
+    background-repeat: no-repeat;
+
+}
+
+.item11,
+.item21,
+.item31,
+.item41,
+.item51 {
+    display: none
+}
+
+.h-container,
+.p-container {
+    display: inline-block;
+    text-align: end;
+    position: relative;
+    bottom: 12.5px;
+}
+
+
+.p-container {
+    padding-left: 3px;
+}
+
+
+/* Switch to alternative states of grid-items on hover */
+.item-wrapper1:hover .item1 {
+    display:none;
+}
+
+.item-wrapper1:hover .item11 {
+    display:block;
+}
+
+.item-wrapper2:hover .item2 {
+    display:none;
+}
+
+.item-wrapper2:hover .item21 {
+    display:block;
+}
+
+.item-wrapper3:hover .item3 {
+    display:none;
+}
+
+.item-wrapper3:hover .item31 {
+    display:block;
+}
+
+.item-wrapper4:hover .item4 {
+    display:none;
+}
+
+.item-wrapper4:hover .item41 {
+    display:block;
+}
+
+.item-wrapper5:hover .item5 {
+    display:none;
+}
+
+.item-wrapper5:hover .item51 {
+    display:block;
+}
+
+
+/* Partner */
+.partner-container {
+    background-color: #f7f7fbce;
+    height: 198px;
+    width: 100%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.logo1,
+.logo2,
+.logo3,
+.logo4 {
+    height: 125px;
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    padding: 1.75%;
+}
+
+.logo1 {
+    padding: 2.5%;
+}
+
+
+
+/* Social Media Links */
+.socialmedia-container {
+    display: flex;
+    height: 30px;
+    justify-content: end;
+}
+
+#linkedin {
+    margin: 0 10px 0 10px;
+}
+
+
+
+
+/* footer section */
+footer {
+    background-color: #fa1e59de;
+    height: 100px;    
+    display: flex;
+    align-items: center;
+}
+
+footer .line1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .line1 .right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+footer .line1 .copyright {
+    display: flex;
+    align-items: center;
+}
+
+footer .line1 .techlabs_logo {
+    display: flex;
+    align-items: center;
+}
+
+footer .line1 .right a{
+    margin-left: 10%;
+}
+
+
+
+/* faq */
+.accordion {
+    margin-bottom: 5%;
+}
+
+.accordion-body a{
+    color: black;
+    font-weight: 700;
+}
+
+.accordion-body a:hover{
+    color: #1756E2;
+    font-weight: 700;
+}
+
+.accordion-body {
+    background-color: #E9F1FE;
+}
+
+.accordion-button {
+    background-color: #F7F7FB;
+}
+/* end */
+
+
+
+
+
+
+

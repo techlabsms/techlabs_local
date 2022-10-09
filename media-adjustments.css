@@ -1,0 +1,1231 @@
+@media (min-width: 992px) {
+    .herobox2 {
+      display: block;
+    }
+
+    .herobox3 {
+        display: block;
+    }
+
+    .herobox3_alt {
+        display: none;
+    }
+}
+
+
+/* -------------------- mobile adjustments ------------------------------ */
+@media (min-width: 281px) and (max-width: 767px) {
+
+    .gradient1{
+        position: absolute;
+        top: -210px;
+        left: -195px;
+        width: 450px;
+        height: 450px;
+        background: radial-gradient(circle, rgba(250, 30, 89, 0.73) 10%, rgba(0,0,0,0) 50%);
+    }
+
+    .gradient2{
+        position: absolute;
+        top: 1700px;
+        left: -195px;
+        width: 500px;
+        height: 500px;
+        background: radial-gradient(circle, rgba(23, 87, 226, 0.515) 10%, rgba(0,0,0,0) 50%);
+        z-index: -10;
+    }
+
+
+/*nav*/
+.navbar-brand img {
+    width: 92px;
+}
+
+/*section spacer */
+.spacer-medium {
+    height: 120px;
+}
+
+.spacer-small {
+    height: 70px;
+}
+
+
+    /* font adjustments */
+a {
+    text-decoration: none;
+    color: #F7F7FB;
+}
+
+p {
+    font-size: 1rem;
+}
+
+a:hover {
+    color: #F7F7FB;
+}
+
+.hello{
+    font-size: 2.4rem;
+    font-weight: bold;   
+    margin-bottom: 1.25rem;
+    position: relative;
+    z-index: 10;
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: bold;   
+    margin-bottom: 1.25rem;
+    position: relative;
+    z-index: 10;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.countdown_optA {
+    font-size: 1.35rem;
+    font-weight: 300;
+}
+
+.countdown_optB {
+    font-size: 1.125rem;
+    font-weight: normal;
+}
+
+.testiname {
+    font-weight: bold;
+}
+
+.h-container {
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+.p-container {
+    font-size: 1rem;
+}
+
+.trackdescription p {
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+/* section */
+  .herobox1
+    {
+        height: 176px;
+    }  
+    .herobox3_alt img {
+        height: 176px;
+    } 
+
+
+    .btn-danger {
+        font-size: 1.2654rem;
+        width: 230px;
+        height: 50px;
+    }
+    
+    .btn-outline-light {
+        margin-top: 20px;
+        font-size: 1.2654rem;
+        width: 230px;
+        height: 50px;
+    }
+
+    .video {
+        display: block;
+        margin: auto;
+        text-align: center;
+        margin-top: 15%;
+        margin-bottom: 15%;
+        border: 4px solid #464646;
+        border-radius: 15px;
+        width: 270px;
+        height: 170px;
+        overflow: hidden;
+    }
+
+    iframe {
+        width: 270px;
+        height: 170px;
+    }
+    
+    
+
+
+
+/* why section */
+.whycards {
+    min-width: 275px;
+    min-height: 300px;
+    border-radius: 10px;
+    margin-bottom: 4%;
+
+}
+
+.why-content {
+    margin: 7.5%;
+}
+
+.why1 {
+    background-image: url(images/why_1.jpg);
+    background-size: cover;
+}
+
+.why2 {
+    background-image: url(images/why_2.jpg);
+    background-size: cover;
+}
+
+.why3 {
+    background-image: url(images/why_3.jpg);
+    background-size: cover;
+}
+
+.why4 {
+    background-image: url(images/why_4.jpg);
+    background-size: cover;
+}
+
+.whycontainer,
+.testicontainer {
+    overflow-x: scroll;
+}
+
+
+
+
+
+
+/* tracks overview */
+.track-container {
+    display: grid;
+    grid-area: 50% / 50%;
+    column-gap: 35px;
+    row-gap: 35px;
+}
+
+
+.track1 {
+    padding: 20px;
+    grid-area: 1 / 1;
+    display: flex;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.track2 {
+    padding: 20px;
+    grid-area: 2 / 1;
+    display: flex;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.track3 {
+    padding: 20px;
+    grid-area: 3 / 1;
+    display: flex;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.track4 {
+    padding: 20px;
+    grid-area: 4 / 1;
+    display: flex;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.trackbadge img{
+    padding-right: 0px;
+    height: 75px;
+    width: 75px;
+}
+
+
+
+
+
+
+
+
+/* testimonials section */
+.testicards {
+    width: 275px;
+    height: 265px;
+}
+
+.testi1 {
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+
+.testi2 {
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+
+.testi3 {
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+
+.testi4 {
+    background-size: 120%;
+    background-repeat: no-repeat;
+
+}
+
+.completecard {
+    align-items: flex-start;
+    height: 580px;
+    width: 310px;
+    margin-bottom: 2%;
+}
+
+.testicomment {
+    padding-top: 20px;
+}
+
+.button-container {
+    padding-top: .5%;
+
+}
+
+
+
+
+
+    /* Journey Container Styles */
+.grid-container {
+    display: grid;
+    padding: 10px;
+    column-gap: 15px;
+    row-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-item {
+    background-color: rgba(250, 30, 90, 0.9);
+  padding: 15px;
+  font-size: 30px;
+  text-align: center;
+  height: 175px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+
+.item-wrapper1 {
+    grid-area: 1 / 1/ span 1/ span 3;
+}
+
+.item-wrapper2 {
+    grid-area: 2 /1 / span 1/ span 3;
+}
+
+.item-wrapper3 {
+    grid-area: 3 / 1 / span 1 / span 3;
+}
+
+.item-wrapper4 {
+    grid-area: 4 / 1 / span 1 /span 3;
+}
+
+.item-wrapper5 {
+    grid-area: 5 / 1 / span 1/ span 3;
+}
+
+.item1 {
+    background-image: url(images/journey_1.svg);
+    background-size: 45%;
+    background-position: 105% 105%;
+    background-repeat: no-repeat;
+}
+
+.item2 {
+    background-image: url(images/journey_3.svg);
+    background-size: 50%;
+    background-position: 110% 100%;
+    background-repeat: no-repeat;
+}
+
+.item3 {
+    background-image: url(images/journey_2.svg);
+    background-size: 60%;
+    background-position: 105% 105%;
+    background-repeat: no-repeat;
+}
+
+.item4 {
+    background-image: url(images/journey_4.svg);
+    background-size: 60%;
+    background-position: 105% 100%;
+    background-repeat: no-repeat;
+ 
+}
+
+.item5 {
+    background-image: url(images/journey_5.svg);
+    background-size: 60%;
+    background-position: 105% 105%;
+    background-repeat: no-repeat;
+
+}
+
+
+    /* Partner */
+
+    .partner-container {
+        background-color: #f7f7fbce;
+        height: 200px;
+        width: 95%;
+        margin-bottom: 5%;
+        border-radius: 10px;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr
+    }
+
+    .logo1,
+    .logo2,
+    .logo3,
+    .logo4 {
+        margin: auto;
+        height: 75px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1.75%;
+    }
+
+    .logo1 img {
+        height: 40px;
+    }
+
+    .logo2 img {
+        height: 60px;
+    }
+
+    .logo3 img {
+        height: 50px;
+    }
+
+    .logo4 img {
+        height: 50px;
+    }
+
+
+    /* Social Media Links */
+.socialmedia-container {
+    display: flex;
+    height: 30px;
+    justify-content: end;
+}
+
+#linkedin {
+    margin: 0 30px;
+}
+
+    /* footer section */
+footer {
+    background-color: #fa1e59de;
+    height: 170px;    
+    display: flex;
+    align-items: center;
+}
+
+footer .line1 {
+    display: block;
+    justify-content: space-between;
+}
+
+footer .line1 .right {
+    display: block;
+    text-align: center;
+    margin-top: 2%;
+}
+
+footer .line1 .copyright {
+    display: block;
+    text-align: center;
+    margin: 4%
+}
+
+footer .line1 .techlabs_logo {
+    display: block;
+    text-align: center;
+    margin-top: 0%;
+}
+
+footer .line1 .right a{
+    text-align: center;
+    margin-left: 0%;
+    margin: 0% 4% 0% 4%;
+}
+
+
+    
+}
+
+
+/* -------------------- tablet adjustments ------------------------------ */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .gradient2{
+        position: absolute;
+        top: 2400px;
+        left: -500px;
+        width: 1200px;
+        height: 1200px;
+        background: radial-gradient(circle, rgba(23, 87, 226, 0.515) 10%, rgba(0,0,0,0) 50%);
+        z-index: -10;
+    }
+    
+/* video */
+    .video {
+        display: block;
+        margin: auto;
+        text-align: center;
+        margin-top: 15%;
+        margin-bottom: 15%;
+        border: 4px solid #464646;
+        border-radius: 15px;
+        width: 620px;
+        height: 390px;
+        overflow: hidden;
+    }
+
+    iframe {
+        width: 620px;
+        height: 390px;
+    }
+
+/*Partner*/
+    .partner-container {
+        background-color: #f7f7fbce;
+        height: 200px;
+        width: 95%;
+        margin-bottom: 5%;
+        border-radius: 10px;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr
+    }
+
+    .logo1,
+    .logo2,
+    .logo3,
+    .logo4 {
+        margin: auto;
+        height: 75px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1.75%;
+    }
+
+    .logo1 img {
+        height: 50px;
+    }
+
+    .logo2 img {
+        height: 80px;
+    }
+
+    .logo3 img {
+        height: 70px;
+    }
+
+    .logo4 img {
+        height: 65px;
+    }
+
+
+
+
+    /* track overview */
+.track1 img,
+.track2 img,
+.track3 img,
+.track4 img  {
+    width: 75px;
+}
+
+
+/* Journey */
+.item-wrapper1 {
+    grid-area: 1 / 1/ span 1/ span 4;
+}
+
+.item-wrapper2 {
+    grid-area: 1 /5 / span 1/ span 3;
+}
+
+.item-wrapper3 {
+    grid-area: 2 / 1 / span 1 / span 3;
+}
+
+.item-wrapper4 {
+    grid-area: 2 / 4 / span 1 /span 2;
+}
+
+.item-wrapper5 {
+    grid-area: 2 / 6 / span 1/ span 2;
+}
+
+.item1 {
+    background-image: url(images/journey_1.svg);
+    background-size: 57.5%;
+    background-position: 105% 105%;
+    background-repeat: no-repeat;
+}
+
+.item2 {
+    background-image: url(images/journey_3.svg);
+    background-size: 70%;
+    background-position: 50% 105%;
+    background-repeat: no-repeat;
+}
+
+.item3 {
+    background-image: url(images/journey_2.svg);
+    background-size: 110%;
+    background-position: 40% 100%;
+    background-repeat: no-repeat;
+}
+
+.item4 {
+    background-image: url(images/journey_4.svg);
+    background-size: 170%;
+    background-position: 50% 120%;
+    background-repeat: no-repeat;
+ 
+}
+
+.item5 {
+    background-image: url(images/journey_5.svg);
+    background-size: 150%;
+    background-position: 30% 105%;
+    background-repeat: no-repeat;
+
+}
+
+
+.grid-item p {
+    font-size: .9rem;
+    text-align: justify;
+    hyphens: auto;
+}
+
+/* social media */
+#linkedin {
+    margin: 0 25px;
+}
+}
+
+
+/* -------------------- other adjustments ------------------------------ */
+@media (min-width: 992px) and (max-width: 1199px) {
+/*Partner*/
+.partner-container {
+    background-color: #f7f7fbce;
+    height: 200px;
+    width: 95%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr
+}
+
+.logo1,
+.logo2,
+.logo3,
+.logo4 {
+    margin: auto;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.75%;
+}
+
+.logo1 img {
+    height: 50px;
+}
+
+.logo2 img {
+    height: 80px;
+}
+
+.logo3 img {
+    height: 70px;
+}
+
+.logo4 img {
+    height: 65px;
+}
+
+
+
+
+
+    /* Journey */
+.item-wrapper1 {
+    grid-area: 1 / 1/ span 1/ span 4;
+}
+
+.item-wrapper2 {
+    grid-area: 1 /5 / span 1/ span 3;
+}
+
+.item-wrapper3 {
+    grid-area: 2 / 1 / span 1 / span 3;
+}
+
+.item-wrapper4 {
+    grid-area: 2 / 4 / span 1 /span 2;
+}
+
+.item-wrapper5 {
+    grid-area: 2 / 6 / span 1/ span 2;
+}
+
+.item1 {
+    background-image: url(images/journey_1.svg);
+    background-size: 50%;
+    background-position: 105% 105%;
+    background-repeat: no-repeat;
+}
+
+.item2 {
+    background-image: url(images/journey_3.svg);
+    background-size: 55%;
+    background-position: 50% 105%;
+    background-repeat: no-repeat;
+}
+
+.item3 {
+    background-image: url(images/journey_2.svg);
+    background-size: 75%;
+    background-position: 60% 100%;
+    background-repeat: no-repeat;
+}
+
+.item4 {
+    background-image: url(images/journey_4.svg);
+    background-size: 120%;
+    background-position: 50% 120%;
+    background-repeat: no-repeat;
+ 
+}
+
+.item5 {
+    background-image: url(images/journey_5.svg);
+    background-size: 115%;
+    background-position: 100% 105%;
+    background-repeat: no-repeat;
+
+}
+
+
+.grid-item p {
+    font-size: 1rem;
+    text-align: justify;
+    hyphens: auto;
+}
+
+#linkedin {
+    margin: 0 30px;
+}
+
+}
+
+
+
+
+
+
+
+@media (max-width: 280px) {
+
+    .gradient1{
+        position: absolute;
+        top: -210px;
+        left: -195px;
+        width: 450px;
+        height: 450px;
+        background: radial-gradient(circle, rgba(250, 30, 89, 0.73) 10%, rgba(0,0,0,0) 50%);
+    }
+
+    .gradient2{
+        position: absolute;
+        top: 1750px;
+        left: -205px;
+        width: 450px;
+        height: 450px;
+        background: radial-gradient(circle, rgba(23, 87, 226, 0.515) 10%, rgba(0,0,0,0) 50%);
+        z-index: -10;
+    }
+
+/*nav*/
+.navbar-brand img {
+    width: 92px;
+}
+
+
+
+
+/*section spacer */
+.spacer-medium {
+    height: 120px;
+}
+
+.spacer-small {
+    height: 70px;
+}
+
+
+    /* font adjustments */
+a {
+    text-decoration: none;
+    color: #F7F7FB;
+}
+
+p {
+    font-size: 0.8rem;
+}
+
+a:hover {
+    color: #F7F7FB;
+}
+
+.hello{
+    font-size: 2rem;
+    font-weight: bold;   
+    margin-bottom: 1.25rem;
+    position: relative;
+    z-index: 10;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;   
+    margin-bottom: 1.25rem;
+    position: relative;
+    z-index: 10;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+
+.countdown_optA {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.countdown_optB {
+    font-size: 1.1rem;
+    font-weight: normal;
+}
+
+.testiname {
+    font-weight: bold;
+}
+
+.h-container {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.p-container {
+    font-size: .8rem;
+}
+
+.trackdescription p {
+    font-size: .8rem;
+}
+
+
+
+
+
+
+
+/* section */
+  .herobox1
+    {
+        height: 176px;
+    }  
+    .herobox3_alt img {
+        height: 176px;
+    } 
+
+
+    .btn-danger {
+        font-size: 1.2654rem;
+        width: 230px;
+        height: 50px;
+    }
+    
+    .btn-outline-light {
+        margin-top: 20px;
+        font-size: 1.2654rem;
+        width: 230px;
+        height: 50px;
+    }
+
+    .video {
+        display: block;
+        margin: auto;
+        text-align: center;
+        margin-top: 15%;
+        margin-bottom: 15%;
+        border: 4px solid #464646;
+        border-radius: 15px;
+        width: 250px;
+        height: 170px;
+        overflow: hidden;
+    }
+
+    iframe {
+        width: 250px;
+        height: 170px;
+    }
+    
+    
+
+
+
+/* why section */
+.whycards {
+    min-width: 275px;
+    min-height: 300px;
+    border-radius: 10px;
+    margin-bottom: 4%;
+
+}
+
+.why-content {
+    margin: 7.5%;
+}
+
+.why1 {
+    background-image: url(images/why_1.jpg);
+    background-size: cover;
+}
+
+.why2 {
+    background-image: url(images/why_2.jpg);
+    background-size: cover;
+}
+
+.why3 {
+    background-image: url(images/why_3.jpg);
+    background-size: cover;
+}
+
+.why4 {
+    background-image: url(images/why_4.jpg);
+    background-size: cover;
+}
+
+.whycontainer,
+.testicontainer {
+    overflow-x: scroll;
+}
+
+
+
+
+
+
+/* tracks overview */
+.track-container {
+    display: grid;
+    grid-area: 50% / 50%;
+    column-gap: 35px;
+    row-gap: 35px;
+}
+
+
+.track1 {
+    padding: 20px;
+    grid-area: 1 / 1;
+    display: flex;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.track2 {
+    padding: 20px;
+    grid-area: 2 / 1;
+    display: flex;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.track3 {
+    padding: 20px;
+    grid-area: 3 / 1;
+    display: flex;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.track4 {
+    padding: 20px;
+    grid-area: 4 / 1;
+    display: flex;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.trackbadge img{
+    padding-right: 0px;
+    height: 50px;
+    width: 50px;
+}
+
+
+
+
+
+
+
+
+/* testimonials section */
+.testicards {
+    width: 275px;
+    height: 265px;
+}
+
+.testi1 {
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+
+.testi2 {
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+
+.testi3 {
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+
+.testi4 {
+    background-size: 120%;
+    background-repeat: no-repeat;
+
+}
+
+.completecard {
+    align-items: flex-start;
+    height: 580px;
+    width: 310px;
+    margin-bottom: 2%;
+}
+
+.testicomment {
+    padding-top: 20px;
+}
+
+.button-container {
+    padding-top: .5%;
+
+}
+
+
+
+
+
+    /* Journey Container Styles */
+.grid-container {
+    display: grid;
+    padding: 10px;
+    column-gap: 15px;
+    row-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-item {
+    background-color: rgba(250, 30, 90, 0.9);
+  padding: 15px;
+  font-size: 30px;
+  text-align: center;
+  height: 175px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+
+.item-wrapper1 {
+    grid-area: 1 / 1/ span 1/ span 3;
+}
+
+.item-wrapper2 {
+    grid-area: 2 /1 / span 1/ span 3;
+}
+
+.item-wrapper3 {
+    grid-area: 3 / 1 / span 1 / span 3;
+}
+
+.item-wrapper4 {
+    grid-area: 4 / 1 / span 1 /span 3;
+}
+
+.item-wrapper5 {
+    grid-area: 5 / 1 / span 1/ span 3;
+}
+
+.item1 {
+    background-image: url(images/journey_1.svg);
+    background-size: 65%;
+    background-position: 105% 105%;
+    background-repeat: no-repeat;
+}
+
+.item2 {
+    background-image: url(images/journey_3.svg);
+    background-size: 60%;
+    background-position: 110% 100%;
+    background-repeat: no-repeat;
+}
+
+.item3 {
+    background-image: url(images/journey_2.svg);
+    background-size: 85%;
+    background-position: 145% 115%;
+    background-repeat: no-repeat;
+}
+
+.item4 {
+    background-image: url(images/journey_4.svg);
+    background-size: 80%;
+    background-position: 145% 100%;
+    background-repeat: no-repeat;
+ 
+}
+
+.item5 {
+    background-image: url(images/journey_5.svg);
+    background-size: 80%;
+    background-position: 105% 105%;
+    background-repeat: no-repeat;
+
+}
+
+
+    /* Partner */
+
+    .partner-container {
+        background-color: #f7f7fbce;
+        height: 200px;
+        width: 95%;
+        margin-bottom: 5%;
+        border-radius: 10px;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr
+    }
+
+    .logo1,
+    .logo2,
+    .logo3,
+    .logo4 {
+        margin: auto;
+        height: 75px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1.75%;
+    }
+
+    .logo1 img {
+        height: 30px;
+    }
+
+    .logo2 img {
+        height: 40px;
+    }
+
+    .logo3 img {
+        height: 40px;
+    }
+
+    .logo4 img {
+        height: 40px;
+    }
+
+
+    /* Social Media Links */
+.socialmedia-container {
+    display: flex;
+    height: 30px;
+    justify-content: end;
+}
+
+#linkedin {
+    margin: 0 30px;
+}
+
+    /* footer section */
+footer {
+    background-color: #fa1e59de;
+    height: 170px;    
+    display: flex;
+    align-items: center;
+}
+
+footer .line1 {
+    display: block;
+    justify-content: space-between;
+}
+
+footer .line1 .right {
+    display: block;
+    text-align: center;
+    margin-top: 2%;
+}
+
+footer .line1 .copyright {
+    display: block;
+    text-align: center;
+    margin: 4%
+}
+
+footer .line1 .techlabs_logo {
+    display: block;
+    text-align: center;
+    margin-top: 0%;
+}
+
+footer .line1 .right a{
+    text-align: center;
+    margin-left: 0%;
+    margin: 0% 4% 0% 4%;
+}
+
+
+    
+}
+
+   
