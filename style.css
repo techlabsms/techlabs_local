@@ -14,7 +14,6 @@ body {
 
 
 
-
 /* nav adjustemnts */
 .navbar {
     background-color: rgba(255, 255, 255, 0);
@@ -617,7 +616,7 @@ iframe {
     border-radius: 10px;
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
 .logo1,
@@ -628,13 +627,26 @@ iframe {
     width: 22%;
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 1.75%;
 }
 
-.logo1 {
-    padding: 2.5%;
+
+.logo1 img {
+    height: 55px;
 }
 
+.logo2 img {
+    height: 100px;
+}
+
+.logo3 img {
+    height: 75px;
+}
+
+.logo4 img {
+    height: 75px;
+}
 
 
 /* Social Media Links */
