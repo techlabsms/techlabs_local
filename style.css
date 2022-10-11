@@ -153,18 +153,18 @@ h3 {
     z-index: -10;
 }
 
-/*
-
-
-.gradient2{
+.gradient3{
     position: absolute;
-    top: 2100px;
-    left: 800px;
-    width: 1000px;
-    height: 1000px;
-    background: radial-gradient(circle, rgba(250, 30, 89, 0.319) 10%, rgba(0,0,0,0) 50%);
+    top: 4100px;
+    left: -750px;
+    width: 1200px;
+    height: 1200px;
+    background: radial-gradient(circle, rgba(250,30,90,1) 10%, rgba(0,0,0,0) 50%);
     z-index: -10;
 }
+
+/*
+
 
 .gradient3{
     position: absolute;
@@ -267,6 +267,11 @@ h3 {
 }
 
 .why4 {
+    background-image: url(images/why_5.jpg);
+    background-size: cover;
+}
+
+.why5 {
     background-image: url(images/why_4.jpg);
     background-size: cover;
 }

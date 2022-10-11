@@ -35,6 +35,16 @@
         z-index: -10;
     }
 
+    .gradient3{
+        position: absolute;
+        top: 3200px;
+        left: -675px;
+        width: 1000px;
+        height: 1000px;
+        background: radial-gradient(circle, rgba(250,30,90,1) 10%, rgba(0,0,0,0) 50%);
+        z-index: -10;
+    }
+
 
 /*nav*/
 .navbar-brand img {
@@ -193,6 +203,11 @@ h3 {
 }
 
 .why4 {
+    background-image: url(images/why_5.jpg);
+    background-size: cover;
+}
+
+.why5 {
     background-image: url(images/why_4.jpg);
     background-size: cover;
 }
@@ -493,6 +508,16 @@ footer .line1 .right a{
         background: radial-gradient(circle, rgba(23, 87, 226, 0.515) 10%, rgba(0,0,0,0) 50%);
         z-index: -10;
     }
+
+    .gradient3{
+        position: absolute;
+        top: 3800px;
+        left: -775px;
+        width: 1200px;
+        height: 1200px;
+        background: radial-gradient(circle, rgba(250,30,90,1) 10%, rgba(0,0,0,0) 50%);
+        z-index: -10;
+    }
     
 /* video */
     .video {
@@ -781,6 +806,10 @@ footer .line1 .right a{
         z-index: -10;
     }
 
+    .gradient3{
+        display: none;
+    }
+
 /*nav*/
 .navbar-brand img {
     width: 92px;
@@ -941,6 +970,11 @@ h3 {
 }
 
 .why4 {
+    background-image: url(images/why_5.jpg);
+    background-size: cover;
+}
+
+.why5 {
     background-image: url(images/why_4.jpg);
     background-size: cover;
 }
