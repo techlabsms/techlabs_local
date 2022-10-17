@@ -18,7 +18,6 @@ body {
 .navbar {
     background-color: rgba(255, 255, 255, 0);
     color:#F7F7FB;
-    ;
 }
 
 .nav-link {
@@ -227,9 +226,9 @@ h3 {
 }
 
 .herocontainer{
-    background: linear-gradient(to top, transparent, #464646 0%, rgba(70, 70, 70, 0.4) 50%, #464646 85%), url(images/muenster.png);
-    background-position: center;
+    background: linear-gradient(to bottom, #464646 0%, rgba(70, 70, 70, 0.4) 50%, #464646 85%), url(images/muenster.png);
     background-size: cover;
+    background-position-y: 10%;
     background-repeat: no-repeat;
 }
 
@@ -281,7 +280,13 @@ h3 {
     overflow-x: scroll;
 }
 
+.whycontainer::-webkit-scrollbar {
+    display: none;
+}
 
+.testicontainer::-webkit-scrollbar {
+    display: none;
+}
 
 
 /* testimonials section */
@@ -318,6 +323,14 @@ h3 {
     border-bottom-right-radius: 30%;
     border-bottom-left-radius: 30%;
     background-image: url(images/testi4.jpg);
+    background-repeat: no-repeat;
+}
+
+.testi5 {
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 30%;
+    background-image: url(images/testi5.jpg);
     background-repeat: no-repeat;
 }
 
@@ -390,25 +403,42 @@ h3 {
 }
 
 
-
+/* video */
+.videocontainer {
+    display: flex;
+}
 
 /* iFrame YouTube Link */
 .video {
     margin: auto;
+    width: 50%;
+    box-sizing: border-box;
     text-align: center;
-    margin-top: 15%;
-    border-radius: 15px;
-    border: 4px solid #464646;
-    width: 848px;
-    height: 480px;
-    overflow: hidden;
 }
 
 iframe {
-    width: 840px;
-    height: 473px;
+   height: 400px;
+   width: 100%;
+   filter: drop-shadow(0 0 20px rgb(35, 35, 35));
 }
 
+.citation {
+    padding: 6%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.content p {
+    font-size: 1.25rem;
+    font-style: italic;
+}
+
+h6 {
+    font-weight:normal;
+    width: 100%;
+
+}
 
 /* tracks overview */
 .track-container {
