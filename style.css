@@ -75,8 +75,11 @@ a {
 }
 
 .toastlink {
-    color: #F7F7FB;
-    text-decoration: underline;
+    color: #1756E2;
+}
+
+.toastlink:hover {
+    color: #1756E2;
 }
 
 p {
