@@ -74,6 +74,11 @@ a {
     color: #F7F7FB;
 }
 
+.toastlink {
+    color: #F7F7FB;
+    text-decoration: underline;
+}
+
 p {
     font-size: 1rem;
 }
